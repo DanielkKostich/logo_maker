@@ -28,13 +28,13 @@ inquirer.prompt([
     },
 ])
 .then(answers => {
-    // Process the user's answers
+   
     const initials = answers.initials;
     const initialsColor = answers.initials_color;
     const shape = answers.shape;
     const shapeColor = answers.shape_color;
 
-    // Generate SVG based on the user's choices
+   
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
                     <${shape} fill="${shapeColor}">
                       ${shape === 'triangle' ? `<polygon points="50,10 90,90 10,90" />` : ''}
@@ -44,11 +44,12 @@ inquirer.prompt([
                     <text x="50" y="60" text-anchor="middle" fill="${initialsColor}">${initials}</text>
                  </svg>`;
 
-    // Save the generated SVG to a file
-    fs.writeFileSync('./examples/company_logo.svg', svg);
+    
+    fs.writeFileSync('./examples/logo.svg', svg);
     console.log('Logo generated successfully!');
 })
 .catch(error => {
     console.error(error);
 });
+
 
