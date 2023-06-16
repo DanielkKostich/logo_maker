@@ -44,7 +44,7 @@ Here are a few examples of using the Logo Generator:
 This project is licensed under the MIT License.
 
 ## Acknowledgements
-The Logo Generator was inspired by the need for a simple and cost-effective solution for creating logos for web development projects.
+The code found in this project was made possible from countless Google searches, coding forums, Youtube videos and with help from the instructional staff. 
 
 ## Contact
 For questions or inquiries, D.kostich@yahoo.com
