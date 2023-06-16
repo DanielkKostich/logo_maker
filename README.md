@@ -9,7 +9,7 @@ The generated logos are saved as SVG files, providing a scalable and high-qualit
 ## Installation
 Clone the repository:
 
-git clone https://github.com/DanielkKostich/logo-generator.git
+git clone https://github.com/DanielkKostich/logo-generator
 Navigate to the project directory:
 
 cd logo-generator
