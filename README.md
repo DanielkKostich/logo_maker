@@ -38,9 +38,11 @@ Open the logo.svg file in a browser to view the generated logo.
 
 ## Examples
 Here are a few examples of using the Logo Generator:
-<link href="https://app.screencastify.com/manage/videos/5m5AeNCx7wOqLHMml49r"/>
-
 <img src="./examples/svg_logo_example.png"></img>
+
+## Walktrhough video
+https://app.screencastify.com/manage/videos/5m5AeNCx7wOqLHMml49r
+
 ## License
 This project is licensed under the MIT License.
 
